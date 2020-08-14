@@ -1,0 +1,4 @@
+#Fri Aug 14 09:53:57 COT 2020
+base.0=C\:\\Users\\Cristhian\\Desktop\\prueba\\TG\\swingtime\\swingtime_app\\platforms\\android\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
