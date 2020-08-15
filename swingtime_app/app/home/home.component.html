@@ -49,15 +49,12 @@
 <GridLayout>
     <GridLayout>
         <Tabs #tabs [selectedIndex]="defaultSelected" (selectedIndexChanged)="onSelectedIndexChanged($event)">
+
             <TabContentItem [backgroundColor]="tabList[0].backgroundColor">
                 <StackLayout>
-                    <Label text="Bottom Nav Content 1" class="h1 text-center p-t-20">
-                        dsadfsfdsfsdafsad
-                    </Label>
+                    <Label text="Bottom Nav Content 1" class="h1 text-center p-t-20"></Label>
 
-                    <Label>
-                        dsadfsfdsfsdafsad
-                    </Label>
+                    <Label text="prueba1" ></Label>
 
                 </StackLayout>
             </TabContentItem>
@@ -112,7 +109,10 @@
             [col]="i" marginTop="20" (tap)="onBottomNavTap(i)"
             verticalAlignment="middle">
             <Label class="fa-regular" [text]="item.text" verticalAlignment="middle"
-                horizontalAlignment="center" [color]="item.color" fontSize="20"></Label>
+                horizontalAlignment="center" [color]="item.color" fontSize="20" [icon]="item.icon"> </Label>
+           
+          
+
         </GridLayout>
 
         <!-- pan layer -->

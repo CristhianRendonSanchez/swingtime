@@ -35,15 +35,15 @@ export class HomeComponent implements OnInit {
         backgroundColor: '#fff',
         focusColor: '#fff'
     };
-    tabList: { text: string, icon?: string, color?: string, backgroundColor: string, fadeColor?: string }[] = [
-        { text: String.fromCharCode(0xf080), backgroundColor: '#40E0D0', color: '#000' },
-        { text: String.fromCharCode(0xf075), backgroundColor: '#48D1CC', color: '#000' },
-        { text: String.fromCharCode(0xf259), backgroundColor: '#00CED1', color: '#000' },
+    tabList: { text: string, color?: string, backgroundColor: string, fadeColor?: string, icon?: string }[] = [
+        { text: 'ENTRENA', backgroundColor: '#40E0D0', color: '#000', icon:'res://home'  },
+        { text: 'INICIO', backgroundColor: '#48D1CC', color: '#000'  },
+        { text: 'DATOS', backgroundColor: '#00CED1', color: '#000'},
 
     ];
 
     currentTabIndex: number = 2;
-    defaultSelected: number = 2;
+    defaultSelected: number = 1;
 
     constructor() {
     }
