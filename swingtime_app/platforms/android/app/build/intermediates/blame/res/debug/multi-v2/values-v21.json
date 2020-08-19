@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Cristhian\\Desktop\\prueba\\TG\\swingtime\\swingtime_app\\platforms\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v21\\values-v21.xml",
+            "outputFile": "C:\\Users\\Cristhian\\Documents\\GitHub\\swingtime\\swingtime_app\\platforms\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v21\\values-v21.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Cristhian\\Desktop\\prueba\\TG\\swingtime\\swingtime_app\\platforms\\android\\app\\src\\main\\res\\values-v21\\colors.xml",
+                    "source": "C:\\Users\\Cristhian\\Documents\\GitHub\\swingtime\\swingtime_app\\platforms\\android\\app\\src\\main\\res\\values-v21\\colors.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "1",
@@ -18,25 +18,6 @@
                         "startOffsets": "159",
                         "endColumns": "43",
                         "endOffsets": "198"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Cristhian\\Desktop\\prueba\\TG\\swingtime\\swingtime_app\\platforms\\android\\app\\src\\main\\res\\values-v21\\styles.xml",
-                    "from": {
-                        "startLines": "4,19,10,15",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "87,745,365,585",
-                        "endLines": "7,21,12,17",
-                        "endColumns": "12,12,12,12",
-                        "endOffsets": "299,885,519,739"
-                    },
-                    "to": {
-                        "startLines": "7,230,271,274",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "398,17174,19668,19827",
-                        "endLines": "10,232,273,276",
-                        "endColumns": "12,12,12,12",
-                        "endOffsets": "610,17314,19822,19981"
                     }
                 },
                 {
@@ -94,6 +75,25 @@
                         "endLines": "2,4,5,6,277,278,285,289,327,332",
                         "endColumns": "103,63,66,63,115,125,125,127,12,12",
                         "endOffsets": "154,262,329,393,20097,20223,20680,20976,23028,23366"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Cristhian\\Documents\\GitHub\\swingtime\\swingtime_app\\platforms\\android\\app\\src\\main\\res\\values-v21\\styles.xml",
+                    "from": {
+                        "startLines": "4,19,10,15",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "87,745,365,585",
+                        "endLines": "7,21,12,17",
+                        "endColumns": "12,12,12,12",
+                        "endOffsets": "299,885,519,739"
+                    },
+                    "to": {
+                        "startLines": "7,230,271,274",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "398,17174,19668,19827",
+                        "endLines": "10,232,273,276",
+                        "endColumns": "12,12,12,12",
+                        "endOffsets": "610,17314,19822,19981"
                     }
                 },
                 {

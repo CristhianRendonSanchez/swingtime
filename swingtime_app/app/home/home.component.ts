@@ -1,9 +1,16 @@
+import { ChallengeService } from "./home.service";
+
 import { Component, OnInit, AfterViewInit, ViewChild, ElementRef, ViewChildren, QueryList } from "@angular/core";
 import { screen } from 'platform';
 import { GridLayout } from "ui/layouts/grid-layout";
 import { PanGestureEventData, GestureStateTypes, GestureEventData } from "ui/gestures";
 import { AnimationCurve } from "ui/enums";
 import { SelectedIndexChangedEventData } from "tns-core-modules/ui/tab-view";
+import { Observable } from "tns-core-modules/data/observable";
+
+
+
+
 
 @Component({
     selector: "Home",
@@ -12,6 +19,10 @@ import { SelectedIndexChangedEventData } from "tns-core-modules/ui/tab-view";
     styleUrls: ["./home.component.css"]
 })
 export class HomeComponent implements OnInit {
+    isLoading = false;
+
+
+// parte grafica
 
     @ViewChild('tabs', { static: true }) tabs: ElementRef;
     @ViewChild('centerCircle', { static: true }) centerCircle: ElementRef;
@@ -44,13 +55,6 @@ export class HomeComponent implements OnInit {
 
     currentTabIndex: number = 2;
     defaultSelected: number = 1;
-
-    constructor() {
-    }
-
-    ngOnInit(): void {
-    }
-
 
     // --------------------------------------------------------------------
     // Hooks
@@ -180,4 +184,34 @@ export class HomeComponent implements OnInit {
         return index * screen.mainScreen.widthDIPs / this.tabList.length - (screen.mainScreen.widthDIPs / 2) + (80 / 2)
     }
 
+//-----------------------------------------------------------------------------
+
+    constructor(private challengeService: ChallengeService) {}
+
+    ngOnInit(): void {
+        this.isLoading = true;
+        this.challengeService.fetchCurrentChallenge().subscribe(
+            res => {
+                console.log('Fetched challenge...');
+                this.isLoading = false;
+                //this.loadTabRoutes();
+            },
+            err => {
+                console.log(err);
+                this.isLoading = false;
+                //this.loadTabRoutes();
+            }
+        );
+  }
+
+//-----------------------------------------------------------------------------
+
+userList: { name: string} = 
+        { name: "cristhian"};
+
+    
+
 }
+
+
+

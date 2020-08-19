@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Cristhian\\Desktop\\prueba\\TG\\swingtime\\swingtime_app\\platforms\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw\\values-sw.xml",
+            "outputFile": "C:\\Users\\Cristhian\\Documents\\GitHub\\swingtime\\swingtime_app\\platforms\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw\\values-sw.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Cristhian\\.gradle\\caches\\transforms-2\\files-2.1\\eeb5da7c8c0996fbc1c9cdf4633c58bb\\core-1.0.1\\res\\values-sw\\values-sw.xml",

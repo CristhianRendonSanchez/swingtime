@@ -1,1 +1,1 @@
-C:\Users\Cristhian\Desktop\prueba\TG\swingtime\swingtime_app\platforms\android\app/src/main/assets/metadata
+C:\Users\Cristhian\Documents\GitHub\swingtime\swingtime_app\platforms\android\app/src/main/assets/metadata

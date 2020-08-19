@@ -11,6 +11,7 @@ import { NativeScriptFormsModule } from "nativescript-angular/forms";
 
 import { HomeRoutingModule } from "./home-routing.module";
 import { HomeComponent } from "./home.component";
+import { ChallengeService } from "./home.service";
 
 @NgModule({
     imports: [

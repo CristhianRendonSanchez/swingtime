@@ -13,3 +13,16 @@
     font-family: 'Font Awesome 5 Free', 'fa-regular-400';
     font-weight: 400;
 }
+
+.action-label {
+    color: #3C5AFD;
+    font-size: 24;
+    font-weight: bold;
+    vertical-align: center;
+}
+
+.action-image {
+    width: 40;
+    height: 40;
+    vertical-align: center;
+}

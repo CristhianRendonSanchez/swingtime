@@ -46,6 +46,7 @@
             </intent-filter>
         </activity>
         <activity android:name="com.tns.ErrorReportActivity" />
+		android:usesCleartextTraffic="true"
         <activity
             android:name="com.google.android.gms.common.api.GoogleApiActivity"
             android:exported="false"

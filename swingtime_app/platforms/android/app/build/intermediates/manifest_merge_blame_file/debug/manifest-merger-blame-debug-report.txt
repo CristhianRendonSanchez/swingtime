@@ -5,32 +5,32 @@
 5    android:versionName="1.0" >
 6
 7    <uses-sdk
-7-->C:\Users\Cristhian\Desktop\prueba\TG\swingtime\swingtime_app\platforms\android\app\src\main\AndroidManifest.xml:13:2-15:44
+7-->C:\Users\Cristhian\Documents\GitHub\swingtime\swingtime_app\platforms\android\app\src\main\AndroidManifest.xml:13:2-15:44
 8        android:minSdkVersion="17"
-8-->C:\Users\Cristhian\Desktop\prueba\TG\swingtime\swingtime_app\platforms\android\app\src\main\AndroidManifest.xml:14:3-29
+8-->C:\Users\Cristhian\Documents\GitHub\swingtime\swingtime_app\platforms\android\app\src\main\AndroidManifest.xml:14:3-29
 9        android:targetSdkVersion="28" />
-9-->C:\Users\Cristhian\Desktop\prueba\TG\swingtime\swingtime_app\platforms\android\app\src\main\AndroidManifest.xml:15:3-42
+9-->C:\Users\Cristhian\Documents\GitHub\swingtime\swingtime_app\platforms\android\app\src\main\AndroidManifest.xml:15:3-42
 10
 11    <supports-screens
-11-->C:\Users\Cristhian\Desktop\prueba\TG\swingtime\swingtime_app\platforms\android\app\src\main\AndroidManifest.xml:7:2-11:33
+11-->C:\Users\Cristhian\Documents\GitHub\swingtime\swingtime_app\platforms\android\app\src\main\AndroidManifest.xml:7:2-11:33
 12        android:largeScreens="true"
-12-->C:\Users\Cristhian\Desktop\prueba\TG\swingtime\swingtime_app\platforms\android\app\src\main\AndroidManifest.xml:10:3-30
+12-->C:\Users\Cristhian\Documents\GitHub\swingtime\swingtime_app\platforms\android\app\src\main\AndroidManifest.xml:10:3-30
 13        android:normalScreens="true"
-13-->C:\Users\Cristhian\Desktop\prueba\TG\swingtime\swingtime_app\platforms\android\app\src\main\AndroidManifest.xml:9:3-31
+13-->C:\Users\Cristhian\Documents\GitHub\swingtime\swingtime_app\platforms\android\app\src\main\AndroidManifest.xml:9:3-31
 14        android:smallScreens="true"
-14-->C:\Users\Cristhian\Desktop\prueba\TG\swingtime\swingtime_app\platforms\android\app\src\main\AndroidManifest.xml:8:3-30
+14-->C:\Users\Cristhian\Documents\GitHub\swingtime\swingtime_app\platforms\android\app\src\main\AndroidManifest.xml:8:3-30
 15        android:xlargeScreens="true" />
-15-->C:\Users\Cristhian\Desktop\prueba\TG\swingtime\swingtime_app\platforms\android\app\src\main\AndroidManifest.xml:11:3-31
+15-->C:\Users\Cristhian\Documents\GitHub\swingtime\swingtime_app\platforms\android\app\src\main\AndroidManifest.xml:11:3-31
 16
 17    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-17-->C:\Users\Cristhian\Desktop\prueba\TG\swingtime\swingtime_app\platforms\android\app\src\main\AndroidManifest.xml:17:2-76
-17-->C:\Users\Cristhian\Desktop\prueba\TG\swingtime\swingtime_app\platforms\android\app\src\main\AndroidManifest.xml:17:19-74
+17-->C:\Users\Cristhian\Documents\GitHub\swingtime\swingtime_app\platforms\android\app\src\main\AndroidManifest.xml:17:2-76
+17-->C:\Users\Cristhian\Documents\GitHub\swingtime\swingtime_app\platforms\android\app\src\main\AndroidManifest.xml:17:19-74
 18    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-18-->C:\Users\Cristhian\Desktop\prueba\TG\swingtime\swingtime_app\platforms\android\app\src\main\AndroidManifest.xml:18:2-77
-18-->C:\Users\Cristhian\Desktop\prueba\TG\swingtime\swingtime_app\platforms\android\app\src\main\AndroidManifest.xml:18:19-75
+18-->C:\Users\Cristhian\Documents\GitHub\swingtime\swingtime_app\platforms\android\app\src\main\AndroidManifest.xml:18:2-77
+18-->C:\Users\Cristhian\Documents\GitHub\swingtime\swingtime_app\platforms\android\app\src\main\AndroidManifest.xml:18:19-75
 19    <uses-permission android:name="android.permission.INTERNET" />
-19-->C:\Users\Cristhian\Desktop\prueba\TG\swingtime\swingtime_app\platforms\android\app\src\main\AndroidManifest.xml:19:2-63
-19-->C:\Users\Cristhian\Desktop\prueba\TG\swingtime\swingtime_app\platforms\android\app\src\main\AndroidManifest.xml:19:19-61
+19-->C:\Users\Cristhian\Documents\GitHub\swingtime\swingtime_app\platforms\android\app\src\main\AndroidManifest.xml:19:2-63
+19-->C:\Users\Cristhian\Documents\GitHub\swingtime\swingtime_app\platforms\android\app\src\main\AndroidManifest.xml:19:19-61
 20    <uses-permission android:name="android.permission.WAKE_LOCK" />
 20-->[:uploadservice-release:] C:\Users\Cristhian\.gradle\caches\transforms-2\files-2.1\746be1cd9bc24303352945b2eea4219d\uploadservice-release\AndroidManifest.xml:14:5-68
 20-->[:uploadservice-release:] C:\Users\Cristhian\.gradle\caches\transforms-2\files-2.1\746be1cd9bc24303352945b2eea4219d\uploadservice-release\AndroidManifest.xml:14:22-65
@@ -38,101 +38,102 @@
 21-->[:uploadservice-release:] C:\Users\Cristhian\.gradle\caches\transforms-2\files-2.1\746be1cd9bc24303352945b2eea4219d\uploadservice-release\AndroidManifest.xml:15:5-77
 21-->[:uploadservice-release:] C:\Users\Cristhian\.gradle\caches\transforms-2\files-2.1\746be1cd9bc24303352945b2eea4219d\uploadservice-release\AndroidManifest.xml:15:22-74
 22    <uses-permission android:name="android.permission.CAMERA" />
-22-->[:nativescript_camera:] C:\Users\Cristhian\.gradle\caches\transforms-2\files-2.1\ca68bb4756ba17430fd58a68a4cf407d\jetified-nativescript_camera\AndroidManifest.xml:10:5-65
-22-->[:nativescript_camera:] C:\Users\Cristhian\.gradle\caches\transforms-2\files-2.1\ca68bb4756ba17430fd58a68a4cf407d\jetified-nativescript_camera\AndroidManifest.xml:10:22-62
+22-->[:nativescript_camera:] C:\Users\Cristhian\.gradle\caches\transforms-2\files-2.1\d23046efb8d616844346b0bd38101551\jetified-nativescript_camera\AndroidManifest.xml:10:5-65
+22-->[:nativescript_camera:] C:\Users\Cristhian\.gradle\caches\transforms-2\files-2.1\d23046efb8d616844346b0bd38101551\jetified-nativescript_camera\AndroidManifest.xml:10:22-62
 23    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 23-->[:nativescript_geolocation:] C:\Users\Cristhian\.gradle\caches\transforms-2\files-2.1\3441c0749c4818700285b0116d76c358\nativescript_geolocation\AndroidManifest.xml:9:5-79
 23-->[:nativescript_geolocation:] C:\Users\Cristhian\.gradle\caches\transforms-2\files-2.1\3441c0749c4818700285b0116d76c358\nativescript_geolocation\AndroidManifest.xml:9:22-76
 24
 25    <application
-25-->C:\Users\Cristhian\Desktop\prueba\TG\swingtime\swingtime_app\platforms\android\app\src\main\AndroidManifest.xml:21:2-42:16
+25-->C:\Users\Cristhian\Documents\GitHub\swingtime\swingtime_app\platforms\android\app\src\main\AndroidManifest.xml:21:2-45:16
 26        android:name="com.tns.NativeScriptApplication"
-26-->C:\Users\Cristhian\Desktop\prueba\TG\swingtime\swingtime_app\platforms\android\app\src\main\AndroidManifest.xml:22:3-49
+26-->C:\Users\Cristhian\Documents\GitHub\swingtime\swingtime_app\platforms\android\app\src\main\AndroidManifest.xml:22:3-49
 27        android:allowBackup="true"
-27-->C:\Users\Cristhian\Desktop\prueba\TG\swingtime\swingtime_app\platforms\android\app\src\main\AndroidManifest.xml:23:3-29
+27-->C:\Users\Cristhian\Documents\GitHub\swingtime\swingtime_app\platforms\android\app\src\main\AndroidManifest.xml:23:3-29
 28        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 28-->[androidx.core:core:1.0.1] C:\Users\Cristhian\.gradle\caches\transforms-2\files-2.1\eeb5da7c8c0996fbc1c9cdf4633c58bb\core-1.0.1\AndroidManifest.xml:22:18-86
 29        android:debuggable="true"
 30        android:icon="@drawable/icon"
-30-->C:\Users\Cristhian\Desktop\prueba\TG\swingtime\swingtime_app\platforms\android\app\src\main\AndroidManifest.xml:24:3-32
+30-->C:\Users\Cristhian\Documents\GitHub\swingtime\swingtime_app\platforms\android\app\src\main\AndroidManifest.xml:24:3-32
 31        android:label="@string/app_name"
-31-->C:\Users\Cristhian\Desktop\prueba\TG\swingtime\swingtime_app\platforms\android\app\src\main\AndroidManifest.xml:25:3-35
+31-->C:\Users\Cristhian\Documents\GitHub\swingtime\swingtime_app\platforms\android\app\src\main\AndroidManifest.xml:25:3-35
 32        android:theme="@style/AppTheme" >
-32-->C:\Users\Cristhian\Desktop\prueba\TG\swingtime\swingtime_app\platforms\android\app\src\main\AndroidManifest.xml:26:3-34
+32-->C:\Users\Cristhian\Documents\GitHub\swingtime\swingtime_app\platforms\android\app\src\main\AndroidManifest.xml:26:3-34
 33        <activity
-33-->C:\Users\Cristhian\Desktop\prueba\TG\swingtime\swingtime_app\platforms\android\app\src\main\AndroidManifest.xml:28:3-40:14
+33-->C:\Users\Cristhian\Documents\GitHub\swingtime\swingtime_app\platforms\android\app\src\main\AndroidManifest.xml:28:3-40:14
 34            android:name="com.tns.NativeScriptActivity"
-34-->C:\Users\Cristhian\Desktop\prueba\TG\swingtime\swingtime_app\platforms\android\app\src\main\AndroidManifest.xml:29:4-47
+34-->C:\Users\Cristhian\Documents\GitHub\swingtime\swingtime_app\platforms\android\app\src\main\AndroidManifest.xml:29:4-47
 35            android:configChanges="keyboardHidden|orientation|screenSize"
-35-->C:\Users\Cristhian\Desktop\prueba\TG\swingtime\swingtime_app\platforms\android\app\src\main\AndroidManifest.xml:31:4-65
+35-->C:\Users\Cristhian\Documents\GitHub\swingtime\swingtime_app\platforms\android\app\src\main\AndroidManifest.xml:31:4-65
 36            android:label="@string/title_activity_kimera"
-36-->C:\Users\Cristhian\Desktop\prueba\TG\swingtime\swingtime_app\platforms\android\app\src\main\AndroidManifest.xml:30:4-49
+36-->C:\Users\Cristhian\Documents\GitHub\swingtime\swingtime_app\platforms\android\app\src\main\AndroidManifest.xml:30:4-49
 37            android:theme="@style/LaunchScreenTheme" >
-37-->C:\Users\Cristhian\Desktop\prueba\TG\swingtime\swingtime_app\platforms\android\app\src\main\AndroidManifest.xml:32:4-44
+37-->C:\Users\Cristhian\Documents\GitHub\swingtime\swingtime_app\platforms\android\app\src\main\AndroidManifest.xml:32:4-44
 38            <meta-data
-38-->C:\Users\Cristhian\Desktop\prueba\TG\swingtime\swingtime_app\platforms\android\app\src\main\AndroidManifest.xml:34:4-87
+38-->C:\Users\Cristhian\Documents\GitHub\swingtime\swingtime_app\platforms\android\app\src\main\AndroidManifest.xml:34:4-87
 39                android:name="SET_THEME_ON_LAUNCH"
-39-->C:\Users\Cristhian\Desktop\prueba\TG\swingtime\swingtime_app\platforms\android\app\src\main\AndroidManifest.xml:34:15-49
+39-->C:\Users\Cristhian\Documents\GitHub\swingtime\swingtime_app\platforms\android\app\src\main\AndroidManifest.xml:34:15-49
 40                android:resource="@style/AppTheme" />
-40-->C:\Users\Cristhian\Desktop\prueba\TG\swingtime\swingtime_app\platforms\android\app\src\main\AndroidManifest.xml:34:50-84
+40-->C:\Users\Cristhian\Documents\GitHub\swingtime\swingtime_app\platforms\android\app\src\main\AndroidManifest.xml:34:50-84
 41
 42            <intent-filter>
-42-->C:\Users\Cristhian\Desktop\prueba\TG\swingtime\swingtime_app\platforms\android\app\src\main\AndroidManifest.xml:36:4-39:20
+42-->C:\Users\Cristhian\Documents\GitHub\swingtime\swingtime_app\platforms\android\app\src\main\AndroidManifest.xml:36:4-39:20
 43                <action android:name="android.intent.action.MAIN" />
-43-->C:\Users\Cristhian\Desktop\prueba\TG\swingtime\swingtime_app\platforms\android\app\src\main\AndroidManifest.xml:37:5-57
-43-->C:\Users\Cristhian\Desktop\prueba\TG\swingtime\swingtime_app\platforms\android\app\src\main\AndroidManifest.xml:37:13-54
+43-->C:\Users\Cristhian\Documents\GitHub\swingtime\swingtime_app\platforms\android\app\src\main\AndroidManifest.xml:37:5-57
+43-->C:\Users\Cristhian\Documents\GitHub\swingtime\swingtime_app\platforms\android\app\src\main\AndroidManifest.xml:37:13-54
 44
 45                <category android:name="android.intent.category.LAUNCHER" />
-45-->C:\Users\Cristhian\Desktop\prueba\TG\swingtime\swingtime_app\platforms\android\app\src\main\AndroidManifest.xml:38:5-65
-45-->C:\Users\Cristhian\Desktop\prueba\TG\swingtime\swingtime_app\platforms\android\app\src\main\AndroidManifest.xml:38:15-62
+45-->C:\Users\Cristhian\Documents\GitHub\swingtime\swingtime_app\platforms\android\app\src\main\AndroidManifest.xml:38:5-65
+45-->C:\Users\Cristhian\Documents\GitHub\swingtime\swingtime_app\platforms\android\app\src\main\AndroidManifest.xml:38:15-62
 46            </intent-filter>
 47        </activity>
 48        <activity android:name="com.tns.ErrorReportActivity" />
-48-->C:\Users\Cristhian\Desktop\prueba\TG\swingtime\swingtime_app\platforms\android\app\src\main\AndroidManifest.xml:41:3-57
-48-->C:\Users\Cristhian\Desktop\prueba\TG\swingtime\swingtime_app\platforms\android\app\src\main\AndroidManifest.xml:41:13-55
-49        <activity
-49-->[com.google.android.gms:play-services-base:11.4.0] C:\Users\Cristhian\.gradle\caches\transforms-2\files-2.1\7a3b9a08f84eaf202b5c9bde2d405526\jetified-play-services-base-11.4.0\AndroidManifest.xml:19:9-172
-50            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-50-->[com.google.android.gms:play-services-base:11.4.0] C:\Users\Cristhian\.gradle\caches\transforms-2\files-2.1\7a3b9a08f84eaf202b5c9bde2d405526\jetified-play-services-base-11.4.0\AndroidManifest.xml:19:19-85
-51            android:exported="false"
-51-->[com.google.android.gms:play-services-base:11.4.0] C:\Users\Cristhian\.gradle\caches\transforms-2\files-2.1\7a3b9a08f84eaf202b5c9bde2d405526\jetified-play-services-base-11.4.0\AndroidManifest.xml:19:146-170
-52            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-52-->[com.google.android.gms:play-services-base:11.4.0] C:\Users\Cristhian\.gradle\caches\transforms-2\files-2.1\7a3b9a08f84eaf202b5c9bde2d405526\jetified-play-services-base-11.4.0\AndroidManifest.xml:19:86-145
-53
-54        <meta-data
-54-->[com.google.android.gms:play-services-basement:11.4.0] C:\Users\Cristhian\.gradle\caches\transforms-2\files-2.1\40691ed82416713bea9b2d687e80908a\jetified-play-services-basement-11.4.0\AndroidManifest.xml:20:9-121
-55            android:name="com.google.android.gms.version"
-55-->[com.google.android.gms:play-services-basement:11.4.0] C:\Users\Cristhian\.gradle\caches\transforms-2\files-2.1\40691ed82416713bea9b2d687e80908a\jetified-play-services-basement-11.4.0\AndroidManifest.xml:20:20-65
-56            android:value="@integer/google_play_services_version" />
-56-->[com.google.android.gms:play-services-basement:11.4.0] C:\Users\Cristhian\.gradle\caches\transforms-2\files-2.1\40691ed82416713bea9b2d687e80908a\jetified-play-services-basement-11.4.0\AndroidManifest.xml:20:66-119
-57
-58        <service
-58-->[:uploadservice-release:] C:\Users\Cristhian\.gradle\caches\transforms-2\files-2.1\746be1cd9bc24303352945b2eea4219d\uploadservice-release\AndroidManifest.xml:18:9-22:19
-59            android:name="net.gotev.uploadservice.UploadService"
-59-->[:uploadservice-release:] C:\Users\Cristhian\.gradle\caches\transforms-2\files-2.1\746be1cd9bc24303352945b2eea4219d\uploadservice-release\AndroidManifest.xml:19:13-65
-60            android:enabled="true"
-60-->[:uploadservice-release:] C:\Users\Cristhian\.gradle\caches\transforms-2\files-2.1\746be1cd9bc24303352945b2eea4219d\uploadservice-release\AndroidManifest.xml:20:13-35
-61            android:exported="false" >
-61-->[:uploadservice-release:] C:\Users\Cristhian\.gradle\caches\transforms-2\files-2.1\746be1cd9bc24303352945b2eea4219d\uploadservice-release\AndroidManifest.xml:21:13-37
-62        </service>
-63
-64        <provider
-64-->[:nativescript_camera:] C:\Users\Cristhian\.gradle\caches\transforms-2\files-2.1\ca68bb4756ba17430fd58a68a4cf407d\jetified-nativescript_camera\AndroidManifest.xml:13:9-22:20
-65            android:name="androidx.core.content.FileProvider"
-65-->[:nativescript_camera:] C:\Users\Cristhian\.gradle\caches\transforms-2\files-2.1\ca68bb4756ba17430fd58a68a4cf407d\jetified-nativescript_camera\AndroidManifest.xml:14:13-62
-66            android:authorities="org.nativescript.blankng.provider"
-66-->[:nativescript_camera:] C:\Users\Cristhian\.gradle\caches\transforms-2\files-2.1\ca68bb4756ba17430fd58a68a4cf407d\jetified-nativescript_camera\AndroidManifest.xml:15:13-60
-67            android:exported="false"
-67-->[:nativescript_camera:] C:\Users\Cristhian\.gradle\caches\transforms-2\files-2.1\ca68bb4756ba17430fd58a68a4cf407d\jetified-nativescript_camera\AndroidManifest.xml:16:13-37
-68            android:grantUriPermissions="true" >
-68-->[:nativescript_camera:] C:\Users\Cristhian\.gradle\caches\transforms-2\files-2.1\ca68bb4756ba17430fd58a68a4cf407d\jetified-nativescript_camera\AndroidManifest.xml:17:13-47
-69            <meta-data
-69-->[:nativescript_camera:] C:\Users\Cristhian\.gradle\caches\transforms-2\files-2.1\ca68bb4756ba17430fd58a68a4cf407d\jetified-nativescript_camera\AndroidManifest.xml:18:13-21:52
-70                android:name="android.support.FILE_PROVIDER_PATHS"
-70-->[:nativescript_camera:] C:\Users\Cristhian\.gradle\caches\transforms-2\files-2.1\ca68bb4756ba17430fd58a68a4cf407d\jetified-nativescript_camera\AndroidManifest.xml:19:17-67
-71                android:resource="@xml/provider_paths" />
-71-->[:nativescript_camera:] C:\Users\Cristhian\.gradle\caches\transforms-2\files-2.1\ca68bb4756ba17430fd58a68a4cf407d\jetified-nativescript_camera\AndroidManifest.xml:20:17-55
-72        </provider>
-73    </application>
-74
-75</manifest>
+48-->C:\Users\Cristhian\Documents\GitHub\swingtime\swingtime_app\platforms\android\app\src\main\AndroidManifest.xml:41:3-57
+48-->C:\Users\Cristhian\Documents\GitHub\swingtime\swingtime_app\platforms\android\app\src\main\AndroidManifest.xml:41:13-55
+49		android:usesCleartextTraffic="true"
+50        <activity
+50-->[com.google.android.gms:play-services-base:11.4.0] C:\Users\Cristhian\.gradle\caches\transforms-2\files-2.1\7a3b9a08f84eaf202b5c9bde2d405526\jetified-play-services-base-11.4.0\AndroidManifest.xml:19:9-172
+51            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+51-->[com.google.android.gms:play-services-base:11.4.0] C:\Users\Cristhian\.gradle\caches\transforms-2\files-2.1\7a3b9a08f84eaf202b5c9bde2d405526\jetified-play-services-base-11.4.0\AndroidManifest.xml:19:19-85
+52            android:exported="false"
+52-->[com.google.android.gms:play-services-base:11.4.0] C:\Users\Cristhian\.gradle\caches\transforms-2\files-2.1\7a3b9a08f84eaf202b5c9bde2d405526\jetified-play-services-base-11.4.0\AndroidManifest.xml:19:146-170
+53            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+53-->[com.google.android.gms:play-services-base:11.4.0] C:\Users\Cristhian\.gradle\caches\transforms-2\files-2.1\7a3b9a08f84eaf202b5c9bde2d405526\jetified-play-services-base-11.4.0\AndroidManifest.xml:19:86-145
+54
+55        <meta-data
+55-->[com.google.android.gms:play-services-basement:11.4.0] C:\Users\Cristhian\.gradle\caches\transforms-2\files-2.1\40691ed82416713bea9b2d687e80908a\jetified-play-services-basement-11.4.0\AndroidManifest.xml:20:9-121
+56            android:name="com.google.android.gms.version"
+56-->[com.google.android.gms:play-services-basement:11.4.0] C:\Users\Cristhian\.gradle\caches\transforms-2\files-2.1\40691ed82416713bea9b2d687e80908a\jetified-play-services-basement-11.4.0\AndroidManifest.xml:20:20-65
+57            android:value="@integer/google_play_services_version" />
+57-->[com.google.android.gms:play-services-basement:11.4.0] C:\Users\Cristhian\.gradle\caches\transforms-2\files-2.1\40691ed82416713bea9b2d687e80908a\jetified-play-services-basement-11.4.0\AndroidManifest.xml:20:66-119
+58
+59        <service
+59-->[:uploadservice-release:] C:\Users\Cristhian\.gradle\caches\transforms-2\files-2.1\746be1cd9bc24303352945b2eea4219d\uploadservice-release\AndroidManifest.xml:18:9-22:19
+60            android:name="net.gotev.uploadservice.UploadService"
+60-->[:uploadservice-release:] C:\Users\Cristhian\.gradle\caches\transforms-2\files-2.1\746be1cd9bc24303352945b2eea4219d\uploadservice-release\AndroidManifest.xml:19:13-65
+61            android:enabled="true"
+61-->[:uploadservice-release:] C:\Users\Cristhian\.gradle\caches\transforms-2\files-2.1\746be1cd9bc24303352945b2eea4219d\uploadservice-release\AndroidManifest.xml:20:13-35
+62            android:exported="false" >
+62-->[:uploadservice-release:] C:\Users\Cristhian\.gradle\caches\transforms-2\files-2.1\746be1cd9bc24303352945b2eea4219d\uploadservice-release\AndroidManifest.xml:21:13-37
+63        </service>
+64
+65        <provider
+65-->[:nativescript_camera:] C:\Users\Cristhian\.gradle\caches\transforms-2\files-2.1\d23046efb8d616844346b0bd38101551\jetified-nativescript_camera\AndroidManifest.xml:13:9-22:20
+66            android:name="androidx.core.content.FileProvider"
+66-->[:nativescript_camera:] C:\Users\Cristhian\.gradle\caches\transforms-2\files-2.1\d23046efb8d616844346b0bd38101551\jetified-nativescript_camera\AndroidManifest.xml:14:13-62
+67            android:authorities="org.nativescript.blankng.provider"
+67-->[:nativescript_camera:] C:\Users\Cristhian\.gradle\caches\transforms-2\files-2.1\d23046efb8d616844346b0bd38101551\jetified-nativescript_camera\AndroidManifest.xml:15:13-60
+68            android:exported="false"
+68-->[:nativescript_camera:] C:\Users\Cristhian\.gradle\caches\transforms-2\files-2.1\d23046efb8d616844346b0bd38101551\jetified-nativescript_camera\AndroidManifest.xml:16:13-37
+69            android:grantUriPermissions="true" >
+69-->[:nativescript_camera:] C:\Users\Cristhian\.gradle\caches\transforms-2\files-2.1\d23046efb8d616844346b0bd38101551\jetified-nativescript_camera\AndroidManifest.xml:17:13-47
+70            <meta-data
+70-->[:nativescript_camera:] C:\Users\Cristhian\.gradle\caches\transforms-2\files-2.1\d23046efb8d616844346b0bd38101551\jetified-nativescript_camera\AndroidManifest.xml:18:13-21:52
+71                android:name="android.support.FILE_PROVIDER_PATHS"
+71-->[:nativescript_camera:] C:\Users\Cristhian\.gradle\caches\transforms-2\files-2.1\d23046efb8d616844346b0bd38101551\jetified-nativescript_camera\AndroidManifest.xml:19:17-67
+72                android:resource="@xml/provider_paths" />
+72-->[:nativescript_camera:] C:\Users\Cristhian\.gradle\caches\transforms-2\files-2.1\d23046efb8d616844346b0bd38101551\jetified-nativescript_camera\AndroidManifest.xml:20:17-55
+73        </provider>
+74    </application>
+75
+76</manifest>

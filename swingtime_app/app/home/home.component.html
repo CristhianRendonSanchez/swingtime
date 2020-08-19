@@ -1,60 +1,32 @@
-<ActionBar title="SWING TIME">
+<ActionBar title="test">
+  <StackLayout orientation="horizontal"
+    ios:horizontalAlignment="center"
+    android:horizontalAlignment="center">
+    <!--<Image src="res://nativescript_logo" class="action-image"></Image>-->
+    <Label text=".:: SWING TIME ::." class="action-label"></Label>
+  </StackLayout>
 </ActionBar>
 
-<!--
-<StackLayout>
-    <BottomNavigation>
-        <TabStrip>
-            <TabStripItem>
-                <Label text="Home"></Label>
-                <Image src="res://home"></Image>
-            </TabStripItem>
-            <TabStripItem>
-                <Label text="Settings"></Label>
-                <Image src="res://settings"></Image>
-            </TabStripItem>
-            <TabStripItem>
-                <Label text="Search"></Label>
-                <Image src="res://search"></Image>
-            </TabStripItem>
-        </TabStrip>
-        <TabContentItem>
-            <GridLayout >
-                <Label text="Home Page" class="h2 text-center">
-                </Label>
 
-                
-                  
-            </GridLayout>
-        </TabContentItem>
-        <TabContentItem>
-            <GridLayout>
-                <Label text="Settings Page" class="h2 text-center">
-                </Label>
-                <ScrollView orientation="horizontal">
-                    
-                </ScrollView>
-            </GridLayout>
-        </TabContentItem>
-        <TabContentItem>
-            <GridLayout>
-                <Label text="Search Page" class="h2 text-center">
-                </Label>
-            </GridLayout>
-        </TabContentItem>
-    </BottomNavigation>
-</StackLayout>
-
--->
 <GridLayout>
     <GridLayout>
         <Tabs #tabs [selectedIndex]="defaultSelected" (selectedIndexChanged)="onSelectedIndexChanged($event)">
 
             <TabContentItem [backgroundColor]="tabList[0].backgroundColor">
                 <StackLayout>
-                    <Label text="Bottom Nav Content 1" class="h1 text-center p-t-20"></Label>
+                    <Label text=".:: TUS RETOS ::." class="h1 text-center p-t-20"></Label>
 
-                    <Label text="prueba1" ></Label>
+                    <Label text="prueba1" class="h2 text-center p-t-20"></Label>
+
+                    <RadDataForm [source]="prueba">
+                            <TKEntityProperty tkDataFormProperty
+                                name="time" displayName="Tiempo"
+                                ></TKEntityProperty>
+                            
+                    </RadDataForm>
+                    
+                    <Label text="prueba2" class="h2 text-center p-t-20"></Label>
+                    <Label text="prueba3" class="h2 text-center p-t-20"></Label>
 
                 </StackLayout>
             </TabContentItem>
@@ -67,8 +39,18 @@
 
             <TabContentItem [backgroundColor]="tabList[2].backgroundColor">
                 <StackLayout>
-                    <Label text="Bottom Nav Content 3" class="h1 text-center p-t-20"></Label>
+                    <Label text=".::MIS DATOS::." class="h1 text-center p-t-20"></Label>
+
+                
+
+                    <RadDataForm [source]="userList">
+                            <TKEntityProperty tkDataFormProperty
+                                name="name" displayName="NOMBRE"
+                                index="0"></TKEntityProperty>
+                            
+                    </RadDataForm>
                 </StackLayout>
+                
             </TabContentItem>
 
            

@@ -39,5 +39,8 @@
 			</intent-filter>
 		</activity>
 		<activity android:name="com.tns.ErrorReportActivity"/>
+
+		android:usesCleartextTraffic="true"
+
 	</application>
 </manifest>

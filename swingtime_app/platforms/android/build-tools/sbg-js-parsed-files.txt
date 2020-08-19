@@ -1,5 +1,6 @@
-C:\Users\Cristhian\Desktop\prueba\TG\swingtime\swingtime_app\platforms\android\app\src\main\assets\app\0.js
-C:\Users\Cristhian\Desktop\prueba\TG\swingtime\swingtime_app\platforms\android\app\src\main\assets\app\bundle.js
-C:\Users\Cristhian\Desktop\prueba\TG\swingtime\swingtime_app\platforms\android\app\src\main\assets\app\runtime.js
-C:\Users\Cristhian\Desktop\prueba\TG\swingtime\swingtime_app\platforms\android\app\src\main\assets\app\tns-java-classes.js
-C:\Users\Cristhian\Desktop\prueba\TG\swingtime\swingtime_app\platforms\android\app\src\main\assets\app\vendor.js
+C:\Users\Cristhian\Documents\GitHub\swingtime\swingtime_app\platforms\android\app\src\main\assets\app\0.js
+C:\Users\Cristhian\Documents\GitHub\swingtime\swingtime_app\platforms\android\app\src\main\assets\app\bundle.1234b02263d630562b49.hot-update.js
+C:\Users\Cristhian\Documents\GitHub\swingtime\swingtime_app\platforms\android\app\src\main\assets\app\bundle.js
+C:\Users\Cristhian\Documents\GitHub\swingtime\swingtime_app\platforms\android\app\src\main\assets\app\runtime.js
+C:\Users\Cristhian\Documents\GitHub\swingtime\swingtime_app\platforms\android\app\src\main\assets\app\tns-java-classes.js
+C:\Users\Cristhian\Documents\GitHub\swingtime\swingtime_app\platforms\android\app\src\main\assets\app\vendor.js
