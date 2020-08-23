@@ -212,6 +212,7 @@ userList: { nombre: string, apellido: string, edad: number, peso: number, nivel:
         { recomend: "KNN", estilo:"libre", tiempo: "2 min", distancia: "http://192.168.0.11:8000/distanceKNN/23/2/60/60/1/0/0/0/1/0" },
 
         { recomend: "", estilo:"", tiempo: "", distancia: "" },
+
         
     ];
 
