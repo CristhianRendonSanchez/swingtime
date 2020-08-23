@@ -153,7 +153,7 @@ def recomend_ramdon_forest_time(request,age,distance,level,weight,gender_m,strok
 
 ########################################################################################################################################################
 
-def recomend_ramdon_forest_distance(request,age,distance,level,weight,gender_m,stroke_code_bk,stroke_code_br,stroke_code_fl,stroke_code_fr,stroke_code_im):
+def recomend_ramdon_forest_distance(request,age,level,swin,weight,gender_m,stroke_code_bk,stroke_code_br,stroke_code_fl,stroke_code_fr,stroke_code_im):
 
 	#read bd for search data
 	recomend = Recomend.objects.all()
@@ -184,10 +184,10 @@ def recomend_ramdon_forest_distance(request,age,distance,level,weight,gender_m,s
 	classifier = RandomForestClassifier(n_estimators=100)
 	
 	classifier.fit(X_train, y_train)
-	pred=sc.transform([[age,distance,level,weight,gender_m,stroke_code_bk,stroke_code_br,stroke_code_fl,stroke_code_fr,stroke_code_im]])
+	pred=sc.transform([[age,level,swin,weight,gender_m,stroke_code_bk,stroke_code_br,stroke_code_fl,stroke_code_fr,stroke_code_im]])
 	y_pred = classifier.predict(pred)
 	print(y_pred)
-	return JsonResponse({'time':int(y_pred[0])})
+	return JsonResponse({'distance':int(y_pred[0])})
 
 ########################################################################################################################################################
 
@@ -219,7 +219,7 @@ def recomend_KNN_time(request,age,distance,level,weight,gender_m,stroke_code_bk,
 	# Fitting classifier to the Training set
 	from sklearn.neighbors import KNeighborsClassifier
 	
-	classifier = KNeighborsClassifier(n_neighbors = 5)
+	classifier = KNeighborsClassifier(n_neighbors = 15)
 	
 	classifier.fit(X_train, y_train)
 	pred=sc.transform([[age,distance,level,weight,gender_m,stroke_code_bk,stroke_code_br,stroke_code_fl,stroke_code_fr,stroke_code_im]])
@@ -229,7 +229,7 @@ def recomend_KNN_time(request,age,distance,level,weight,gender_m,stroke_code_bk,
 
 ########################################################################################################################################################
 
-def recomend_KNN_distance(request,age,distance,level,weight,gender_m,stroke_code_bk,stroke_code_br,stroke_code_fl,stroke_code_fr,stroke_code_im):
+def recomend_KNN_distance(request,age,level,swin,weight,gender_m,stroke_code_bk,stroke_code_br,stroke_code_fl,stroke_code_fr,stroke_code_im):
 
 	#read bd for search data
 	recomend = Recomend.objects.all()
@@ -257,10 +257,10 @@ def recomend_KNN_distance(request,age,distance,level,weight,gender_m,stroke_code
 	# Fitting classifier to the Training set
 	from sklearn.neighbors import KNeighborsClassifier
 	
-	classifier = KNeighborsClassifier(n_neighbors = 5)
+	classifier = KNeighborsClassifier(n_neighbors = 15)
 	
 	classifier.fit(X_train, y_train)
-	pred=sc.transform([[age,distance,level,weight,gender_m,stroke_code_bk,stroke_code_br,stroke_code_fl,stroke_code_fr,stroke_code_im]])
+	pred=sc.transform([[age,level,swin,weight,gender_m,stroke_code_bk,stroke_code_br,stroke_code_fl,stroke_code_fr,stroke_code_im]])
 	y_pred = classifier.predict(pred)
 	print(y_pred)
-	return JsonResponse({'time':int(y_pred[0])})
+	return JsonResponse({'distance':int(y_pred[0])})

@@ -8,25 +8,55 @@
 </ActionBar>
 
 
+
+
 <GridLayout>
     <GridLayout>
         <Tabs #tabs [selectedIndex]="defaultSelected" (selectedIndexChanged)="onSelectedIndexChanged($event)">
 
-            <TabContentItem [backgroundColor]="tabList[0].backgroundColor">
+            <TabContentItem [backgroundColor]="tabList[0].backgroundColor">7
                 <StackLayout>
                     <Label text=".:: TUS RETOS ::." class="h1 text-center p-t-20"></Label>
-
-                    <Label text="prueba1" class="h2 text-center p-t-20"></Label>
-
-                    <RadDataForm [source]="prueba">
-                            <TKEntityProperty tkDataFormProperty
-                                name="time" displayName="Tiempo"
-                                ></TKEntityProperty>
-                            
-                    </RadDataForm>
                     
-                    <Label text="prueba2" class="h2 text-center p-t-20"></Label>
-                    <Label text="prueba3" class="h2 text-center p-t-20"></Label>
+
+                    <RadListView [items]="trainer" marginRight="-2">
+                        <ListViewGridLayout tkListViewLayout 
+                            itemHeight="300" spanCount="1">
+                        </ListViewGridLayout>
+                        <ng-template tkListItemTemplate let-item="item">        
+                            <GridLayout verticalAlignment="center">
+                                <StackLayout orientation="vertical"  height="210">
+
+                                   <Label text="{{ item.recomend }}"></Label>
+
+                                    <Label text="{{ item.estilo }}"></Label>
+
+                                    <label text="para completar este reto debes nadar"></label>
+
+                                    <Label text="{{ item.distancia }}"></Label>
+
+                                    <Label text="{{ item.tiempo }}"></Label>
+
+                                    <GridLayout>
+                                        <label text="cumplido"></label>
+                                        <Switch checked="false"></Switch>
+                                    </GridLayout> 
+
+                                   
+                         
+
+                                </StackLayout>
+                            </GridLayout>
+                             
+
+                        </ng-template>
+                    </RadListView>
+
+                    <label text="........."></label>
+                    <label text="........."></label>
+                    <label text="........."></label>
+                    <label text="........."></label>
+                    <label text="........."></label>
 
                 </StackLayout>
             </TabContentItem>
@@ -45,10 +75,27 @@
 
                     <RadDataForm [source]="userList">
                             <TKEntityProperty tkDataFormProperty
-                                name="name" displayName="NOMBRE"
+                                name="nombre" displayName="NOMBRE"
                                 index="0"></TKEntityProperty>
-                            
+                            <TKEntityProperty tkDataFormProperty
+                                name="apellido" displayName="APELLIDO"
+                                index="1"></TKEntityProperty>
+                            <TKEntityProperty tkDataFormProperty
+                                name="edad" displayName="EDAD"
+                                index="2"></TKEntityProperty>
+                            <TKEntityProperty tkDataFormProperty
+                                name="peso" displayName="PESO"
+                                index="3"></TKEntityProperty>
+                            <TKEntityProperty tkDataFormProperty
+                                name="nivel" displayName="NIVEL"
+                                index="4"></TKEntityProperty>
+                            <TKEntityProperty tkDataFormProperty
+                                name="genero" displayName="GENERO"
+                                index="5"></TKEntityProperty>
                     </RadDataForm>
+
+                    <Label text=".::RETOS CUMPLIDOS::." class="h1 text-center p-t-20"></Label> 
+
                 </StackLayout>
                 
             </TabContentItem>
@@ -56,6 +103,7 @@
            
         </Tabs>
     </GridLayout>
+    
 
     <!-- bottom tabs -->
     <GridLayout height="auto" verticalAlignment="bottom" columns="*, *, *">

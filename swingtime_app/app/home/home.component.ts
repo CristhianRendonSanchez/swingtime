@@ -186,32 +186,33 @@ export class HomeComponent implements OnInit {
 
 //-----------------------------------------------------------------------------
 
-    constructor(private challengeService: ChallengeService) {}
+    constructor() {}
 
     ngOnInit(): void {
-        this.isLoading = true;
-        this.challengeService.fetchCurrentChallenge().subscribe(
-            res => {
-                console.log('Fetched challenge...');
-                this.isLoading = false;
-                //this.loadTabRoutes();
-            },
-            err => {
-                console.log(err);
-                this.isLoading = false;
-                //this.loadTabRoutes();
-            }
-        );
+        
   }
 
 //-----------------------------------------------------------------------------
 
-userList: { name: string} = 
-        { name: "cristhian"};
+userList: { nombre: string, apellido: string, edad: number, peso: number, nivel: number, genero: string } =  { nombre: "Cristhian",
+            apellido: "Rendon",
+            edad: 23,
+            peso: 64,
+            nivel: 2,
+            genero: "hombre" };
 
-    
+
+    trainer: { recomend: string, estilo: string, distancia: string, tiempo: string}[] = [
+        { recomend: "SVM", estilo:"libre", distancia: "50 mts", tiempo: "http://192.168.0.11:8000/timeSVM/23/50/2/64/1/0/0/0/1/0" },
+        { recomend: "Ramdon Forest", estilo:"libre", distancia: "50 mts", tiempo: "http://192.168.0.11:8000/timeRF/23/50/2/60/1/0/0/0/1/0" },
+        { recomend: "KNN", estilo:"libre", distancia: "50 mts", tiempo: "http://192.168.0.11:8000/timeKNN/23/50/2/60/1/0/0/0/1/0" },
+
+        { recomend: "SVM", estilo:"libre", tiempo: "2 min", distancia: "http://192.168.0.11:8000/distanceSVM/23/50/2/64/1/0/0/0/1/0" },
+        { recomend: "Ramdon Forest", estilo:"libre", tiempo: "2 min", distancia: "http://192.168.0.11:8000/distanceSRF/23/50/2/60/1/0/0/0/1/0" },
+        { recomend: "KNN", estilo:"libre", tiempo: "2 min", distancia: "http://192.168.0.11:8000/distanceKNN/23/2/60/60/1/0/0/0/1/0" },
+
+        { recomend: "", estilo:"", tiempo: "", distancia: "" },
+        
+    ];
 
 }
-
-
-
